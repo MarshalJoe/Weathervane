@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+ruby '2.0.0'
+
+# gems for bike-weather-app
+gem 'sinatra'
+gem 'sinatra-contrib'
+gem 'rspec'
+gem 'pry'
+gem 'forecast_io'
+gem 'rest-client'
+gem 'json'
+gem 'typhoeus'
+gem 'foreman'
+gem 'twilio-ruby'
+gem 'geocode'
+gem 'crack'
