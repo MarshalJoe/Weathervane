@@ -1,0 +1,19 @@
+
+body {
+	background-color: black;
+}
+
+h1, h2, h3, h3, h5, h6 {
+	color: white;
+	font-size: 5em;
+	font-family: "Helvetica";	
+}
+
+.weatherbox {
+	margin: 175px;
+}
+
+#word {
+	color:blue;
+	font-family: "Times New Roman";
+}
