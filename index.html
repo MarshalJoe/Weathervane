@@ -5,6 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<script src="http://code.jquery.com/jquery-latest.min.js"
         type="text/javascript"></script>
+  <script type="text/javascript" src="cycleText.js"></script>
 
 </head>
 <body>
@@ -14,45 +15,6 @@
 		<h1>Weather <span id="word" style="display:none"></span></h1>
 
 	</div>
-
-	<script type="text/javascript">
-
-	$(function() {
-
-
-	var words = ["rain", "snow", "sleet", "traffic", "zombies", "it all"];
-
-
-	function fadeInText (element, word, time) {
-		setTimeout((function () {
-			$(element).text(word).fadeIn("slow", function () {
-				$(element).fadeOut("fast");
-			});
-		}), time)
-	}
-
-	// function fadeOutText (element) {
-	// 	$(element).fadeOut("slow");
-	// }
-
-	function cycleText (element, array) {
-		var timeStep = 0;
-		for (var i = 0; i < array.length; i++) {
-			timeStep += 1500;
-			fadeInText(element, array[i], timeStep);
-		}
-	}
-
-	cycleText("#word", words);
-
-
-
-	});
-
-				
-
-
-	</script>
 
 </body>
 </html>
