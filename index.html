@@ -22,21 +22,26 @@
 
 	var words = ["rain", "snow", "sleet", "traffic", "zombies", "it all"];
 
-	var splashFade = function (element, time) {
 
-		setTimeout(function()	{
- 			$(element).html(words[1]);
- 			$(element).fadeIn("slow");
-		} , time);
+	function fadeInText (word, time) {
+		setTimeout((function () {
+			$("#word").text(word).fadeIn();
+		}), time)
+	}
 
-	};
+	function cycleText (array) {
+		var timeStep = 0;
+		for (var i = 0; i < array.length; i++) {
+			timeStep += 1500;
+			fadeInText(array[i], timeStep);
+		}
+	}
 
-	splashFade("#word", 1000);
+	cycleText(words);
 
 
 
 	});
-
 
 				
 
