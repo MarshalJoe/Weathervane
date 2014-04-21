@@ -23,21 +23,27 @@
 	var words = ["rain", "snow", "sleet", "traffic", "zombies", "it all"];
 
 
-	function fadeInText (word, time) {
+	function fadeInText (element, word, time) {
 		setTimeout((function () {
-			$("#word").text(word).fadeIn();
+			$(element).text(word).fadeIn("slow", function () {
+				$(element).fadeOut("fast");
+			});
 		}), time)
 	}
 
-	function cycleText (array) {
+	// function fadeOutText (element) {
+	// 	$(element).fadeOut("slow");
+	// }
+
+	function cycleText (element, array) {
 		var timeStep = 0;
 		for (var i = 0; i < array.length; i++) {
 			timeStep += 1500;
-			fadeInText(array[i], timeStep);
+			fadeInText(element, array[i], timeStep);
 		}
 	}
 
-	cycleText(words);
+	cycleText("#word", words);
 
 
 
