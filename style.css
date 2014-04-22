@@ -40,14 +40,13 @@ h2, h3, h4, h5, h6 {
 
 .infographics {
 	padding: 80px;
-	height: 1200px;
+	height: 325px;
 	z-index: 2;
 	position: relative;
 	text-align: center
 }
 
 .infographics .container {
-	height: 400px;
 	width: 30%;
 	display: inline-block;
 }
@@ -75,8 +74,13 @@ h2, h3, h4, h5, h6 {
 
 .second-photo {
 	width: 100%;
-	height: auto;
+	height: 500px;
 	background-image: url("images/clouds.jpg");
+	background-size: cover;
+}
+
+.footer {
+	height: 50px;
 }
 
 #word {
