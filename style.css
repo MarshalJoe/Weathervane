@@ -38,7 +38,7 @@ h2, h3, h4, h5, h6 {
 	color: white;
 }
 
-.info-text {
+.infographics {
 	padding: 80px;
 	height: 1200px;
 	z-index: 2;
@@ -46,29 +46,37 @@ h2, h3, h4, h5, h6 {
 	text-align: center
 }
 
-.info-text .divider {
-	height: 250px;
+.infographics .container {
+	height: 400px;
+	width: 30%;
+	display: inline-block;
 }
 
-.info-text .logo {
-	font-size: 10em;
+.infographics .mobile-logo {
+	font-size: 9em;
 	color: #231739;
 }
 
-.info-text .plus-logo {
+.infographics .plus-logo {
 	font-size: 7em;
 	color: #231739;
 }
 
-.info-text .calendar-logo {
+.infographics .calendar-logo {
 	font-size: 7em;
 	color: #231739;
 }
 
-.info-text h2 {
+.infographics h2 {
 	color:#231739;
-	font-size: 2em;
+	font-size: 1.5em;
 	font-family: "Oxygen";
+}
+
+.second-photo {
+	width: 100%;
+	height: auto;
+	background-image: url("images/clouds.jpg");
 }
 
 #word {
