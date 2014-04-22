@@ -6,7 +6,7 @@ body {
 
 h1 {
 	color: white;
-	font-size: 5em;
+	font-size: 5.5em;
 	font-family: "Helvetica";	
 }
 
@@ -52,6 +52,11 @@ h2, h3, h4, h5, h6 {
 
 .info-text .logo {
 	font-size: 10em;
+	color: #231739;
+}
+
+.info-text .plus-logo {
+	font-size: 7em;
 	color: #231739;
 }
 
