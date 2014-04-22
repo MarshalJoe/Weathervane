@@ -1,19 +1,71 @@
 
 body {
-	background-color: black;
+	margin: 0;
+	background-color: white;
 }
 
-h1, h2, h3, h3, h5, h6 {
+h1 {
 	color: white;
 	font-size: 5em;
 	font-family: "Helvetica";	
 }
 
-.weatherbox {
-	margin: 175px;
+h2, h3, h4, h5, h6 {
+	margin:0;
+}
+
+.splash-photo {
+	margin: 0;
+	margin-top: 20px;
+	width: 100%;
+	height: 520px;
+	background-image: url("images/track-lights.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.splash-text {
+	position: fixed;
+	padding-top: 50px;
+	padding-left: 50px;
+}
+
+.splash-text p {
+	margin-top: -50px;
+	margin-left: 10px;
+	font-size: 1.5em;
+	font-family: "Oxygen";
+	color: white;
+}
+
+.info-text {
+	padding: 80px;
+	height: 1200px;
+	z-index: 2;
+	position: relative;
+	text-align: center
+}
+
+.info-text .divider {
+	height: 250px;
+}
+
+.info-text .logo {
+	font-size: 10em;
+	color: #231739;
+}
+
+.info-text .calendar-logo {
+	font-size: 7em;
+	color: #231739;
+}
+
+.info-text h2 {
+	color:#231739;
+	font-size: 2em;
+	font-family: "Oxygen";
 }
 
 #word {
-	color:blue;
-	font-family: "Times New Roman";
+
 }
