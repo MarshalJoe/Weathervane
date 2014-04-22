@@ -46,6 +46,10 @@ h2, h3, h4, h5, h6 {
 	text-align: center
 }
 
+.infographics .large-container {
+	width: 100%;
+}
+
 .infographics .container {
 	width: 30%;
 	display: inline-block;
@@ -64,6 +68,23 @@ h2, h3, h4, h5, h6 {
 .infographics .calendar-logo {
 	font-size: 7em;
 	color: #231739;
+}
+
+.infographics .button {
+	border-radius: 10px;
+	margin-top: 50px;
+	width: 120px;
+	height: 70px;
+	background-color: #231739;
+	color:white;
+	font-size: 1.5em;
+	font-family: "Oxygen";
+	transition: background-color 1s;
+	box-shadow: 1px 1px #666;
+}
+
+.infographics .button:hover {
+	background-color: #55acee;
 }
 
 .infographics h2 {
@@ -90,9 +111,31 @@ h2, h3, h4, h5, h6 {
 	font-family: "Helvetica"; 
 }
 
+.second-photo p {
+	color:white;
+	font-family: "Oxygen";
+	position: absolute;
+	bottom: 120px;
+	left: 55px;
+	font-size: 1.5em;
+}
+
 .footer {
 	height: 50px;
 	background-color: black;
+}
+
+.footer p {
+	margin: 0;
+	padding-top: 15px;
+	padding-left: 15px;
+	color:white;
+	font-family: "Oxygen";
+	font-size: 1em;
+}
+
+.footer a {
+	text-decoration: none;
 }
 
 #word {
