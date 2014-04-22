@@ -27,6 +27,7 @@ h2, h3, h4, h5, h6 {
 	position: fixed;
 	padding-top: 50px;
 	padding-left: 50px;
+	z-index: 3;
 }
 
 .splash-text p {
@@ -40,7 +41,7 @@ h2, h3, h4, h5, h6 {
 .infographics {
 	padding: 80px;
 	height: 300px;
-	z-index: 2;
+	z-index: 4;
 	position: relative;
 	text-align: center
 }
@@ -76,6 +77,17 @@ h2, h3, h4, h5, h6 {
 	height: 500px;
 	background-image: url("images/clouds.jpg");
 	background-size: cover;
+	position: relative;
+}
+
+.second-photo .number {
+	color:white;
+	position: absolute;
+	bottom: 200px;
+	left: 50px;
+	z-index: 2;
+	font-size: 4em;
+	font-family: "Helvetica"; 
 }
 
 .footer {
